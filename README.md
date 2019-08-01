@@ -1,5 +1,5 @@
 Simple example of getting a CAD model (e.g. STP) into Gazebo.
-First convert the CAD file format to a mesh file format (e.g. STL or Collada), for example by using FreeCAD (see also (here)[http://andreasbihlmaier.github.io/2014/02/11/open-source_workflow_for_gazebo_models.html]).
+First convert the CAD file format to a mesh file format (e.g. STL or Collada), for example by using FreeCAD (see also [here](http://andreasbihlmaier.github.io/2014/02/11/open-source_workflow_for_gazebo_models.html)).
 Also create a simple convex mesh as collision object (e.g. using Blender modifiers or MeshLab's "Convex Hull" filter) or use a (several) geometric primitive(s) as `<collision>`.
 
 Layout suggestion for model "cool gadget":
